@@ -40,13 +40,21 @@ namespace BMR_Calculator
             if (sex == "m")
             {
                 bmr = 88.362 + (13.397 * kg) + (4.799 * cm) - (5.677 * age);
+                resultsLabel.Text = "Your BMR is: " + bmr + " calories";
             }
-            if (sex == "f")
+            else if (sex == "f")
             {
                 bmr = 88.362 + (13.397 * kg) + (4.799 * cm) - (5.677 * age);
+                resultsLabel.Text = "Your BMR is: " + bmr + " calories";
             }
-
-            resultsLabel.Text = "Your BMR is: " + bmr + " calories";
+            else if (sex == "x")
+            {
+                resultsLabel.Text = "You cannot select both Male and Female!";
+            }
+            else
+            {
+                resultsLabel.Text = "You must select Male or Female.";
+            }
         }
     }
 }
