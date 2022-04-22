@@ -146,6 +146,11 @@
             // inputWeight
             // 
             this.inputWeight.Location = new System.Drawing.Point(433, 335);
+            this.inputWeight.Maximum = new decimal(new int[] {
+            500,
+            0,
+            0,
+            0});
             this.inputWeight.Name = "inputWeight";
             this.inputWeight.Size = new System.Drawing.Size(145, 57);
             this.inputWeight.TabIndex = 12;

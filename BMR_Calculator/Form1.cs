@@ -42,12 +42,12 @@ namespace BMR_Calculator
             if (sex == "m")
             {
                 bmr = 88.362 + (13.397 * kg) + (4.799 * cm) - (5.677 * age);
-                resultsLabel.Text = "Your BMR is: " + bmr + " calories";
+                resultsLabel.Text = "Your BMR is: " + bmr.ToString("0.00") + " calories burned per day resting.";
             }
             else if (sex == "f")
             {
                 bmr = 88.362 + (13.397 * kg) + (4.799 * cm) - (5.677 * age);
-                resultsLabel.Text = "Your BMR is: " + bmr + " calories";
+                resultsLabel.Text = "Your BMR is: " + bmr.ToString("0.00") + " calories burned per day resting.";
             }
             else if (sex == "x")
             {
