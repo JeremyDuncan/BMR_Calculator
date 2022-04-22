@@ -16,6 +16,8 @@ namespace BMR_Calculator
             double kg = 0;
             double cm = 0;
 
+            
+
             string sex = "";
             if (maleCheckbox.Checked == true && femaleCheckbox.Checked == true)
             {

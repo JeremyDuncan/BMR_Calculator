@@ -31,11 +31,17 @@
             this.label1 = new System.Windows.Forms.Label();
             this.maleCheckbox = new System.Windows.Forms.CheckBox();
             this.femaleCheckbox = new System.Windows.Forms.CheckBox();
-            this.inputHeight = new System.Windows.Forms.TextBox();
-            this.inputWeight = new System.Windows.Forms.TextBox();
-            this.inputAge = new System.Windows.Forms.TextBox();
             this.enterButton = new System.Windows.Forms.Button();
             this.resultsLabel = new System.Windows.Forms.Label();
+            this.inputHeight = new System.Windows.Forms.NumericUpDown();
+            this.label2 = new System.Windows.Forms.Label();
+            this.label3 = new System.Windows.Forms.Label();
+            this.label4 = new System.Windows.Forms.Label();
+            this.inputWeight = new System.Windows.Forms.NumericUpDown();
+            this.inputAge = new System.Windows.Forms.NumericUpDown();
+            ((System.ComponentModel.ISupportInitialize)(this.inputHeight)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.inputWeight)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.inputAge)).BeginInit();
             this.SuspendLayout();
             // 
             // label1
@@ -45,7 +51,7 @@
             this.label1.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.label1.Font = new System.Drawing.Font("Segoe UI", 14F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
             this.label1.ForeColor = System.Drawing.SystemColors.HotTrack;
-            this.label1.Location = new System.Drawing.Point(209, 57);
+            this.label1.Location = new System.Drawing.Point(279, 78);
             this.label1.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(299, 53);
@@ -56,7 +62,7 @@
             // 
             this.maleCheckbox.AutoSize = true;
             this.maleCheckbox.ForeColor = System.Drawing.SystemColors.ControlLightLight;
-            this.maleCheckbox.Location = new System.Drawing.Point(177, 143);
+            this.maleCheckbox.Location = new System.Drawing.Point(250, 164);
             this.maleCheckbox.Margin = new System.Windows.Forms.Padding(4);
             this.maleCheckbox.Name = "maleCheckbox";
             this.maleCheckbox.Size = new System.Drawing.Size(136, 55);
@@ -68,7 +74,7 @@
             // 
             this.femaleCheckbox.AutoSize = true;
             this.femaleCheckbox.ForeColor = System.Drawing.SystemColors.ControlLightLight;
-            this.femaleCheckbox.Location = new System.Drawing.Point(360, 143);
+            this.femaleCheckbox.Location = new System.Drawing.Point(433, 164);
             this.femaleCheckbox.Margin = new System.Windows.Forms.Padding(4);
             this.femaleCheckbox.Name = "femaleCheckbox";
             this.femaleCheckbox.Size = new System.Drawing.Size(174, 55);
@@ -76,39 +82,9 @@
             this.femaleCheckbox.Text = "Female";
             this.femaleCheckbox.UseVisualStyleBackColor = true;
             // 
-            // inputHeight
-            // 
-            this.inputHeight.Location = new System.Drawing.Point(196, 236);
-            this.inputHeight.Margin = new System.Windows.Forms.Padding(4);
-            this.inputHeight.Name = "inputHeight";
-            this.inputHeight.PlaceholderText = "Height (Inches)";
-            this.inputHeight.Size = new System.Drawing.Size(305, 57);
-            this.inputHeight.TabIndex = 3;
-            this.inputHeight.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
-            // 
-            // inputWeight
-            // 
-            this.inputWeight.Location = new System.Drawing.Point(196, 317);
-            this.inputWeight.Margin = new System.Windows.Forms.Padding(4);
-            this.inputWeight.Name = "inputWeight";
-            this.inputWeight.PlaceholderText = "Weight (Pounds)";
-            this.inputWeight.Size = new System.Drawing.Size(305, 57);
-            this.inputWeight.TabIndex = 4;
-            this.inputWeight.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
-            // 
-            // inputAge
-            // 
-            this.inputAge.Location = new System.Drawing.Point(196, 393);
-            this.inputAge.Margin = new System.Windows.Forms.Padding(4);
-            this.inputAge.Name = "inputAge";
-            this.inputAge.PlaceholderText = "Age";
-            this.inputAge.Size = new System.Drawing.Size(305, 57);
-            this.inputAge.TabIndex = 5;
-            this.inputAge.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
-            // 
             // enterButton
             // 
-            this.enterButton.Location = new System.Drawing.Point(231, 511);
+            this.enterButton.Location = new System.Drawing.Point(321, 540);
             this.enterButton.Margin = new System.Windows.Forms.Padding(4);
             this.enterButton.Name = "enterButton";
             this.enterButton.Size = new System.Drawing.Size(231, 72);
@@ -123,13 +99,63 @@
             this.resultsLabel.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
             this.resultsLabel.Font = new System.Drawing.Font("Segoe UI", 15F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
             this.resultsLabel.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
-            this.resultsLabel.Location = new System.Drawing.Point(218, 671);
+            this.resultsLabel.Location = new System.Drawing.Point(45, 656);
             this.resultsLabel.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.resultsLabel.MaximumSize = new System.Drawing.Size(800, 0);
+            this.resultsLabel.MinimumSize = new System.Drawing.Size(800, 200);
             this.resultsLabel.Name = "resultsLabel";
-            this.resultsLabel.Size = new System.Drawing.Size(261, 56);
+            this.resultsLabel.Size = new System.Drawing.Size(800, 200);
             this.resultsLabel.TabIndex = 7;
-            this.resultsLabel.Text = "Results Here";
+            this.resultsLabel.Text = "Please enter your information";
             this.resultsLabel.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            // 
+            // inputHeight
+            // 
+            this.inputHeight.Location = new System.Drawing.Point(433, 257);
+            this.inputHeight.Name = "inputHeight";
+            this.inputHeight.Size = new System.Drawing.Size(145, 57);
+            this.inputHeight.TabIndex = 8;
+            // 
+            // label2
+            // 
+            this.label2.AutoSize = true;
+            this.label2.Location = new System.Drawing.Point(262, 248);
+            this.label2.Name = "label2";
+            this.label2.Size = new System.Drawing.Size(151, 51);
+            this.label2.TabIndex = 9;
+            this.label2.Text = "HEIGHT";
+            // 
+            // label3
+            // 
+            this.label3.AutoSize = true;
+            this.label3.Location = new System.Drawing.Point(259, 337);
+            this.label3.Name = "label3";
+            this.label3.Size = new System.Drawing.Size(160, 51);
+            this.label3.TabIndex = 10;
+            this.label3.Text = "WEIGHT";
+            // 
+            // label4
+            // 
+            this.label4.AutoSize = true;
+            this.label4.Location = new System.Drawing.Point(295, 422);
+            this.label4.Name = "label4";
+            this.label4.Size = new System.Drawing.Size(91, 51);
+            this.label4.TabIndex = 11;
+            this.label4.Text = "AGE";
+            // 
+            // inputWeight
+            // 
+            this.inputWeight.Location = new System.Drawing.Point(433, 335);
+            this.inputWeight.Name = "inputWeight";
+            this.inputWeight.Size = new System.Drawing.Size(145, 57);
+            this.inputWeight.TabIndex = 12;
+            // 
+            // inputAge
+            // 
+            this.inputAge.Location = new System.Drawing.Point(433, 420);
+            this.inputAge.Name = "inputAge";
+            this.inputAge.Size = new System.Drawing.Size(145, 57);
+            this.inputAge.TabIndex = 13;
             // 
             // Form1
             // 
@@ -137,12 +163,15 @@
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.SystemColors.ControlDarkDark;
             this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Center;
-            this.ClientSize = new System.Drawing.Size(767, 872);
-            this.Controls.Add(this.resultsLabel);
-            this.Controls.Add(this.enterButton);
+            this.ClientSize = new System.Drawing.Size(902, 872);
             this.Controls.Add(this.inputAge);
             this.Controls.Add(this.inputWeight);
+            this.Controls.Add(this.label4);
+            this.Controls.Add(this.label3);
+            this.Controls.Add(this.label2);
             this.Controls.Add(this.inputHeight);
+            this.Controls.Add(this.resultsLabel);
+            this.Controls.Add(this.enterButton);
             this.Controls.Add(this.femaleCheckbox);
             this.Controls.Add(this.maleCheckbox);
             this.Controls.Add(this.label1);
@@ -150,6 +179,9 @@
             this.Margin = new System.Windows.Forms.Padding(4);
             this.Name = "Form1";
             this.Text = "Jeremy\'s BMR Calculator";
+            ((System.ComponentModel.ISupportInitialize)(this.inputHeight)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.inputWeight)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.inputAge)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -160,10 +192,13 @@
         private Label label1;
         private CheckBox maleCheckbox;
         private CheckBox femaleCheckbox;
-        private TextBox inputHeight;
-        private TextBox inputWeight;
-        private TextBox inputAge;
         private Button enterButton;
         private Label resultsLabel;
+        private NumericUpDown inputHeight;
+        private Label label2;
+        private Label label3;
+        private Label label4;
+        private NumericUpDown inputWeight;
+        private NumericUpDown inputAge;
     }
 }
