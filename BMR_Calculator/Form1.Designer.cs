@@ -137,7 +137,7 @@
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.SystemColors.ControlDarkDark;
             this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Center;
-            this.ClientSize = new System.Drawing.Size(788, 872);
+            this.ClientSize = new System.Drawing.Size(767, 872);
             this.Controls.Add(this.resultsLabel);
             this.Controls.Add(this.enterButton);
             this.Controls.Add(this.inputAge);
