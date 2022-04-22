@@ -57,7 +57,7 @@
             this.maleCheckbox.AutoSize = true;
             this.maleCheckbox.ForeColor = System.Drawing.SystemColors.ControlLightLight;
             this.maleCheckbox.Location = new System.Drawing.Point(177, 143);
-            this.maleCheckbox.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.maleCheckbox.Margin = new System.Windows.Forms.Padding(4);
             this.maleCheckbox.Name = "maleCheckbox";
             this.maleCheckbox.Size = new System.Drawing.Size(136, 55);
             this.maleCheckbox.TabIndex = 1;
@@ -69,7 +69,7 @@
             this.femaleCheckbox.AutoSize = true;
             this.femaleCheckbox.ForeColor = System.Drawing.SystemColors.ControlLightLight;
             this.femaleCheckbox.Location = new System.Drawing.Point(360, 143);
-            this.femaleCheckbox.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.femaleCheckbox.Margin = new System.Windows.Forms.Padding(4);
             this.femaleCheckbox.Name = "femaleCheckbox";
             this.femaleCheckbox.Size = new System.Drawing.Size(174, 55);
             this.femaleCheckbox.TabIndex = 2;
@@ -79,7 +79,7 @@
             // inputHeight
             // 
             this.inputHeight.Location = new System.Drawing.Point(196, 236);
-            this.inputHeight.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.inputHeight.Margin = new System.Windows.Forms.Padding(4);
             this.inputHeight.Name = "inputHeight";
             this.inputHeight.Size = new System.Drawing.Size(305, 57);
             this.inputHeight.TabIndex = 3;
@@ -89,7 +89,7 @@
             // inputWeight
             // 
             this.inputWeight.Location = new System.Drawing.Point(196, 317);
-            this.inputWeight.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.inputWeight.Margin = new System.Windows.Forms.Padding(4);
             this.inputWeight.Name = "inputWeight";
             this.inputWeight.Size = new System.Drawing.Size(305, 57);
             this.inputWeight.TabIndex = 4;
@@ -99,7 +99,7 @@
             // inputAge
             // 
             this.inputAge.Location = new System.Drawing.Point(196, 393);
-            this.inputAge.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.inputAge.Margin = new System.Windows.Forms.Padding(4);
             this.inputAge.Name = "inputAge";
             this.inputAge.Size = new System.Drawing.Size(305, 57);
             this.inputAge.TabIndex = 5;
@@ -109,12 +109,13 @@
             // enterButton
             // 
             this.enterButton.Location = new System.Drawing.Point(231, 511);
-            this.enterButton.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.enterButton.Margin = new System.Windows.Forms.Padding(4);
             this.enterButton.Name = "enterButton";
             this.enterButton.Size = new System.Drawing.Size(231, 72);
             this.enterButton.TabIndex = 6;
             this.enterButton.Text = "Enter";
             this.enterButton.UseVisualStyleBackColor = true;
+            this.enterButton.Click += new System.EventHandler(this.enterButton_Click);
             // 
             // resultsLabel
             // 
@@ -146,7 +147,7 @@
             this.Controls.Add(this.maleCheckbox);
             this.Controls.Add(this.label1);
             this.Font = new System.Drawing.Font("Segoe UI", 14F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.Margin = new System.Windows.Forms.Padding(4);
             this.Name = "Form1";
             this.Text = "Jeremy\'s BMR Calculator";
             this.ResumeLayout(false);
