@@ -81,9 +81,9 @@
             this.inputHeight.Location = new System.Drawing.Point(196, 236);
             this.inputHeight.Margin = new System.Windows.Forms.Padding(4);
             this.inputHeight.Name = "inputHeight";
+            this.inputHeight.PlaceholderText = "Height (Inches)";
             this.inputHeight.Size = new System.Drawing.Size(305, 57);
             this.inputHeight.TabIndex = 3;
-            this.inputHeight.Text = "Height (Inches)";
             this.inputHeight.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             // 
             // inputWeight
@@ -91,9 +91,9 @@
             this.inputWeight.Location = new System.Drawing.Point(196, 317);
             this.inputWeight.Margin = new System.Windows.Forms.Padding(4);
             this.inputWeight.Name = "inputWeight";
+            this.inputWeight.PlaceholderText = "Weight (Pounds)";
             this.inputWeight.Size = new System.Drawing.Size(305, 57);
             this.inputWeight.TabIndex = 4;
-            this.inputWeight.Text = "Weight (Pounds)";
             this.inputWeight.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             // 
             // inputAge
@@ -101,9 +101,9 @@
             this.inputAge.Location = new System.Drawing.Point(196, 393);
             this.inputAge.Margin = new System.Windows.Forms.Padding(4);
             this.inputAge.Name = "inputAge";
+            this.inputAge.PlaceholderText = "Age";
             this.inputAge.Size = new System.Drawing.Size(305, 57);
             this.inputAge.TabIndex = 5;
-            this.inputAge.Text = "Age";
             this.inputAge.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             // 
             // enterButton
