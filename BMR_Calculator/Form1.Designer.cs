@@ -54,7 +54,7 @@
             this.label1.Location = new System.Drawing.Point(279, 78);
             this.label1.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(299, 53);
+            this.label1.Size = new System.Drawing.Size(370, 64);
             this.label1.TabIndex = 0;
             this.label1.Text = "BMR Calculator";
             // 
@@ -65,7 +65,7 @@
             this.maleCheckbox.Location = new System.Drawing.Point(250, 164);
             this.maleCheckbox.Margin = new System.Windows.Forms.Padding(4);
             this.maleCheckbox.Name = "maleCheckbox";
-            this.maleCheckbox.Size = new System.Drawing.Size(136, 55);
+            this.maleCheckbox.Size = new System.Drawing.Size(167, 66);
             this.maleCheckbox.TabIndex = 1;
             this.maleCheckbox.Text = "Male";
             this.maleCheckbox.UseVisualStyleBackColor = true;
@@ -77,7 +77,7 @@
             this.femaleCheckbox.Location = new System.Drawing.Point(433, 164);
             this.femaleCheckbox.Margin = new System.Windows.Forms.Padding(4);
             this.femaleCheckbox.Name = "femaleCheckbox";
-            this.femaleCheckbox.Size = new System.Drawing.Size(174, 55);
+            this.femaleCheckbox.Size = new System.Drawing.Size(213, 66);
             this.femaleCheckbox.TabIndex = 2;
             this.femaleCheckbox.Text = "Female";
             this.femaleCheckbox.UseVisualStyleBackColor = true;
@@ -113,33 +113,33 @@
             // 
             this.inputHeight.Location = new System.Drawing.Point(433, 257);
             this.inputHeight.Name = "inputHeight";
-            this.inputHeight.Size = new System.Drawing.Size(145, 57);
+            this.inputHeight.Size = new System.Drawing.Size(145, 70);
             this.inputHeight.TabIndex = 8;
             // 
             // label2
             // 
             this.label2.AutoSize = true;
-            this.label2.Location = new System.Drawing.Point(262, 248);
+            this.label2.Location = new System.Drawing.Point(240, 248);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(151, 51);
+            this.label2.Size = new System.Drawing.Size(187, 62);
             this.label2.TabIndex = 9;
             this.label2.Text = "HEIGHT";
             // 
             // label3
             // 
             this.label3.AutoSize = true;
-            this.label3.Location = new System.Drawing.Point(259, 337);
+            this.label3.Location = new System.Drawing.Point(237, 337);
             this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(160, 51);
+            this.label3.Size = new System.Drawing.Size(198, 62);
             this.label3.TabIndex = 10;
             this.label3.Text = "WEIGHT";
             // 
             // label4
             // 
             this.label4.AutoSize = true;
-            this.label4.Location = new System.Drawing.Point(295, 422);
+            this.label4.Location = new System.Drawing.Point(273, 422);
             this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(91, 51);
+            this.label4.Size = new System.Drawing.Size(112, 62);
             this.label4.TabIndex = 11;
             this.label4.Text = "AGE";
             // 
@@ -152,19 +152,19 @@
             0,
             0});
             this.inputWeight.Name = "inputWeight";
-            this.inputWeight.Size = new System.Drawing.Size(145, 57);
+            this.inputWeight.Size = new System.Drawing.Size(145, 70);
             this.inputWeight.TabIndex = 12;
             // 
             // inputAge
             // 
             this.inputAge.Location = new System.Drawing.Point(433, 420);
             this.inputAge.Name = "inputAge";
-            this.inputAge.Size = new System.Drawing.Size(145, 57);
+            this.inputAge.Size = new System.Drawing.Size(145, 70);
             this.inputAge.TabIndex = 13;
             // 
             // Form1
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(20F, 50F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(26F, 62F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.SystemColors.ControlDarkDark;
             this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Center;
